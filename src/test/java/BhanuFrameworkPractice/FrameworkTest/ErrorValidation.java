@@ -17,6 +17,8 @@ public class ErrorValidation extends BaseTest{
 	public void secondTest() throws IOException {
 	    //String[] itemtobeselected = { "Sauce Labs Backpack", "Sauce Labs Bolt T-Shirt", "Sauce Labs Fleece Jacket" };
 	    //LandingPage landingpage = launchapplication();
+		//New Comments had been added
+		// Make sure the pipeline works
 		landingPage.login("standard_user", "secret_sauc");
 	   Assert.assertEquals(landingPage.errorMessagevalidation(), "Epic sadface: Username and password do not match any user in this service");
 	   
